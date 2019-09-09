@@ -1,0 +1,418 @@
+body {
+	min-width: 960px;
+		margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333333;
+
+	background-color: #000000;
+	background-image: url("fon.png");
+	background-position: top center;
+	background-repeat: repeat;
+	
+	background-size: 1350px auto;
+}
+img{/*картинка не будет вылазить за родительский блок блоки */
+	max-width: 100%; 
+	height: auto;
+}
+.main-header {
+	margin-bottom: 50px;
+}
+.visually-hidden:not(:focus):not(:active), /*Убирает НЕНУЖНЫЕ элементы с рабочего пространства */
+  input[type="checkbox"].visually-hidden,
+  input[type="radio"].visually-hidden {
+   position: absolute;
+
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+/*.mobile {
+	position: relative;
+    left: 30px;
+	font: inherit; /*меняет шрифт и размер текста*/
+	text-align: left; /*выравнивание */
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    border: none;
+ }*/
+
+.main-navigation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: transparent;
+
+}
+.main-navigation-wrapper {
+	width: 100%;
+	background-color: #333333;
+}
+.main-navigation-wrapper .container{
+    display: flex;
+    justify-content: space-between;
+}
+.site-navigation,
+.user-navigation {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+.site-navigation {
+	display: flex;
+	flex-wrap: wrap;
+	width: 820px;
+
+	background: rgb(51, 51, 51);
+
+  
+	
+}
+.user-navigation {
+
+	display: flex;
+	flex-wrap: wrap;
+	width: 620px;
+
+	background: rgb(51, 51, 51);
+
+}
+.site-navigation a,
+.user-navigation a {
+	display: block;
+	padding: 25px 18px;
+
+	color: #ffffff;
+
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:focus,
+.user-navigation a:focus{
+	background-color: #666666;
+}
+.user-navigation .mobile{
+
+	position: relative;
+	background: rgb(51,51,51);
+    padding-top: 34px;
+    padding-left: 290px;
+
+  
+
+
+}
+
+.mobile::before {
+	content: "";
+
+	position: absolute;
+	top: 33px;
+	left: 254px;
+	width: 25px;
+	height: 25px;
+	background-image: url("icon-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  
+    opacity: 0.3;
+
+}
+.mobile:hover::before,
+.mobile:focus::before,
+.mobile:active::before {
+  opacity: 1;
+}
+
+
+.container1 {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main-navigation {
+	display: flex;
+	padding-left: 100p
+	font-size: 15px;
+	line-height: 20px;
+	color: #ffffFf;
+}
+.main-header-logo {
+	position: relative;
+	top: -60px;
+	left: 11px;
+	height: 10px;
+	width: 300px;
+	padding-right: 3px;
+	order: 4;
+	
+}
+.logo-text {
+		position: relative;
+		padding-left: 100px;
+		color: white;
+		order: 5;
+
+}
+
+
+.user-navigation .mobile {
+	position: absolute;
+
+}
+
+.text {
+	position: relative;
+	color: white;
+	left: 10px;
+	top: 10px;
+	order: 6;
+}
+
+/*ЭТО БЫЛ хёдер ЁПТа бля  ↑*/
+
+
+.features {
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0 0px;
+	background-color: white;
+}
+
+.oneblock { 
+}
+
+.features-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	min-height: 170px;
+	text-align:center;
+	
+}
+.features-item {
+	
+	width: 300px;
+	margin-left: 770px;
+	
+	min-height: 170px;
+}
+
+.divan7 {
+	width: 730px;
+	position: absolute;
+	margin: 30px;
+	padding-left: 20px;
+	
+
+	
+}
+
+.flex-divan {
+	display: flex;
+	max-width:1200px;
+
+	overflow:hidden; /*скроем тень*/
+	padding-top: 30px;
+}
+.item1 {
+	height:360px;
+
+	flex:40%; /* = flex-basis:20%; */
+
+	transition: flex 300ms ease;
+
+	box-shadow: 0 0 19px 3px #000; margin: 1px; /* красивости тени */
+}
+.item1:hover {
+ 	flex: 0.1 0.1 450px;
+	background-size: 100% 100%;
+}
+
+
+.img1 { background:  url("pagedivan1.jpg") 0 0 no-repeat; }
+.img2 { background: url("pagedivan2.jpg") 0 0 no-repeat; }
+.img3 { background: url("pagedivan3.jpg") 0 0 no-repeat; }
+
+
+
+
+p.text-1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 20px;
+	text-indent: 190px;
+}
+p.text-2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+	text-indent: 240px;
+
+}
+/*ниже код для иконочек под линией */
+.flex-container {
+	max-width: 1100px;
+	margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container .item {
+	max-width: 150px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;/* (распологаем вниз флексы )*/
+	justify-content: space-between;
+	
+}
+
+.flex-container .item { margin-left: 10px; margin-right: 10px; }
+
+
+.flex-container.item.text-icon,
+.flex-container.item.link {
+    margin-top: 70px; 
+   }
+
+.flex-container .item img {
+	align-content: center;
+}
+.flex-container .item .text-icon { flex-grow:1; }
+.flex-container .item .link a {
+  display: block;
+  padding: 15px 10px;
+  max-width: 160px;
+  margin: 0 auto;
+  
+  text-decoration: none;
+   color: white;
+  background:#6b6b6b;
+  border-radius:3px;
+  
+}
+
+
+
+/*figure.page-icon {
+	display: flex;
+
+	flex-wrap: wrap;
+	flex-basis: auto;
+	align-items: center;
+   justify-content: center;
+	background-color: red;
+	padding: 40px 0px;
+	margin:10px;
+	
+	
+}
+
+
+.block1.img { 
+	 margin: 0 auto;
+	 padding: 30px;
+	 width: 350px;
+    height: 350px;
+ 
+
+}*/
+
+.icon4 {
+	filter: grayscale(1);
+	filter: contrast(120%);
+}
+.icon3 {
+	filter: contrast(120%);
+	filter: grayscale(1);
+
+	
+}
+
+
+.text-icon2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+   
+	text-align:  center;
+
+}
+
+
+
+
+
+
+
+
+
+/*ТАМ ФУТЕР , НЕ ЛЕЗТЬ ТУДА , ГДЕ ВСЁ НОРМАЛЬНО*/
+.main-footer {
+	margin-top: 15px;
+	padding: 10px 0;
+	width: 100%;
+	margin: auto;
+    color: #333333;
+	background-color: #333333;
+}
+
+
+
+.main-footer .features {
+	
+   
+    background-color: #333333;
+     
+  
+}
+.footer-help {
+	display: flex;
+}
+
+.footer-contacts {
+	width: 370px;
+	
+	margin: 0;
+	margin-right: auto;
+	color: white;
+	
+	
+
+
+}	 
+.footer-social {
+	width: 350px;
+	color: white;
+	
+
+	
+    
+}	
+.footer-copyright {
+	margin: 0;
+	width: 400px;
+    margin-left: auto;
+    
+    color: white;
+	
+
+}
