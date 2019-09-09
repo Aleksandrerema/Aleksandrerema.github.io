@@ -10,7 +10,7 @@ body {
 	color: #333333;
 
 	background-color: #000000;
-	background-image: url("fon.png");
+	background-image: url(img/fon.png);
 	background-position: top center;
 	background-repeat: repeat;
 	
@@ -132,7 +132,7 @@ img{/*картинка не будет вылазить за родительс�
 	left: 254px;
 	width: 25px;
 	height: 25px;
-	background-image: url("icon-mobile.svg");
+	background-image: url("img/icon-mobile.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
   
@@ -251,9 +251,9 @@ img{/*картинка не будет вылазить за родительс�
 }
 
 
-.img1 { background:  url("pagedivan1.jpg") 0 0 no-repeat; }
-.img2 { background: url("pagedivan2.jpg") 0 0 no-repeat; }
-.img3 { background: url("pagedivan3.jpg") 0 0 no-repeat; }
+.img1 { background:  url(img/pagedivan1.jpg) 0 0 no-repeat; }
+.img2 { background: url(img/pagedivan2.jpg) 0 0 no-repeat; }
+.img3 { background: url(img/pagedivan3.jpg) 0 0 no-repeat; }
 
 
 
@@ -262,7 +262,7 @@ p.text-1{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 
 	font-size: 20px;
-	text-indent: 190px;
+	text-indent: 80px;
 }
 p.text-2 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -393,16 +393,14 @@ p.text-2 {
 	
 	margin: 0;
 	margin-right: auto;
-	color: white;
-	
+	background-color: red;
 	
 
 
 }	 
 .footer-social {
 	width: 350px;
-	color: white;
-	
+	background-color: yellow;
 
 	
     
@@ -411,8 +409,6 @@ p.text-2 {
 	margin: 0;
 	width: 400px;
     margin-left: auto;
-    
-    color: white;
-	
+    background-color: green;
 
 }
