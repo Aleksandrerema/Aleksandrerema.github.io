@@ -44,16 +44,16 @@ img{/*картинка не будет вылазить за родительс�
 /*.mobile {
 	position: relative;
     left: 30px;
-	font: inherit; /*меняет шрифт и размер текста*/
-	text-align: left; /*выравнивание */
+	font: inherit; 
+	text-align: left; 
     color: #ffffff;
     vertical-align: middle;
     text-transform: uppercase;
 
     background-color: #000000;
     border: none;
- }*/
-
+ } 
+*/
 .main-navigation {
 	display: flex;
 	flex-direction: column;
