@@ -342,10 +342,12 @@ p.text-2 {
 .icon4 {
 	filter: grayscale(1);
 	filter: contrast(120%);
+	margin-top: 14px;
 }
 .icon3 {
 	filter: contrast(120%);
 	filter: grayscale(1);
+	margin-top: -10px;
 
 	
 }
