@@ -251,9 +251,9 @@ img{/*картинка не будет вылазить за родительс�
 }
 
 
-.img1 { background:  url(img/pagedivan1.jpg) 0 0 no-repeat; }
-.img2 { background: url(img/pagedivan2.jpg) 0 0 no-repeat; }
-.img3 { background: url(img/pagedivan3.jpg) 0 0 no-repeat; }
+.img1 { background:  url("img/pagedivan1.jpg") 0 0 no-repeat; }
+.img2 { background: url("img/pagedivan2.jpg") 0 0 no-repeat; }
+.img3 { background: url("img/pagedivan3.jpg") 0 0 no-repeat; }
 
 
 
@@ -262,7 +262,7 @@ p.text-1{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 
 	font-size: 20px;
-	text-indent: 80px;
+	text-indent: 190px;
 }
 p.text-2 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -393,14 +393,16 @@ p.text-2 {
 	
 	margin: 0;
 	margin-right: auto;
-	background-color: red;
+	color: white;
+	
 	
 
 
 }	 
 .footer-social {
 	width: 350px;
-	background-color: yellow;
+	color: white;
+	
 
 	
     
@@ -409,6 +411,8 @@ p.text-2 {
 	margin: 0;
 	width: 400px;
     margin-left: auto;
-    background-color: green;
+    
+    color: white;
+	
 
 }
