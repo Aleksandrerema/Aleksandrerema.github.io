@@ -376,6 +376,7 @@ p.text-2 {
 	margin: auto;
     color: #333333;
 	background-color: #333333;
+	text-align: center;
 }
 
 
@@ -409,13 +410,39 @@ p.text-2 {
 
 	
     
+}
+.footer-social ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 150px;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+.social-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 43px;
+	height: 43px;
+
 }	
+
 .footer-copyright {
 	margin: 0;
 	width: 400px;
     margin-left: auto;
     
     color: white;
+    text-align: center;
+	
+
+}
+.footer-copyright b {
+	display: block;
+	margin-bottom: 15px;
+	  text-align: center;
 	
 
 }
