@@ -369,14 +369,18 @@ p.text-2 {
 
 
 /*ТАМ ФУТЕР , НЕ ЛЕЗТЬ ТУДА , ГДЕ ВСЁ НОРМАЛЬНО*/
+.features {
+	padding-bottom: 10px;
+}
 .main-footer {
-	margin-top: 15px;
-	padding: 10px 0;
+	
+	height: 120px;
 	width: 100%;
 	margin: auto;
     color: #333333;
 	background-color: #333333;
 	text-align: center;
+	padding-top: 40px;
 }
 
 
@@ -391,18 +395,26 @@ p.text-2 {
 .footer-help {
 	display: flex;
 }
-
 .footer-contacts {
 	width: 370px;
-	
+	height: 50px;
 	margin: 0;
 	margin-right: auto;
-	color: white;
-	
-	
+	color: black;
+	margin-bottom: 0px;
+	text-align: left;
+	margin-bottom: 
 
 
 }	 
+.footer-contacts p {
+	margin-top: 3px;
+}
+.text2008 {
+	padding-right: 20px;
+	color: white;
+	padding-top: 5px;
+}
 .footer-social {
 	width: 350px;
 	color: white;
@@ -439,10 +451,11 @@ p.text-2 {
 	
 
 }
-.footer-copyright b {
+.footer-social b {
 	display: block;
-	margin-bottom: 15px;
+	margin-top: 0px;
 	  text-align: center;
+	
 	
 
 }
