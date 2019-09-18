@@ -85,6 +85,7 @@ img{/*картинка не будет вылазить за родительс�
 	width: 820px;
 
 	background: rgb(51, 51, 51);
+	padding-left: 20px; 
 
   
 	
@@ -150,6 +151,7 @@ img{/*картинка не будет вылазить за родительс�
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
+	padding-left: 110px;
 }
 .main-navigation {
 	display: flex;
@@ -459,3 +461,86 @@ p.text-2 {
 	
 
 }
+Пошли модалки
+.modal {
+	position: fixed;
+	color: #000000;
+	background-color: #999999;
+
+
+}
+.modal-map {
+	display: none;
+	top: 50px;
+	left: 50px;
+	width: 740px;
+	height: 560px;
+	margin-top: -950px;
+	border: 8px solid black; 
+
+	
+}
+
+
+
+
+/*ВНИМАНИЕ  !!!!! другая страница сайта пошла , О КОМПАНИИ*/
+
+h2 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+/*это я делаю рисочки вокруг текста*/
+.company-content-one .big-heading {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 50px;
+	
+}
+.big-heading::before,
+.big-heading::after {
+	flex-grow: 1;
+	flex-shrink: 0;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background: #000000;
+
+}
+.big-heading::before {
+	margin-right: 20px;
+}
+.big-heading::after {
+	margin-left: 20px;
+}
+.eac {
+    margin: 0 150px;
+	margin-top: -80px;
+	z-index: 1;
+} 
+.big-heading {
+	position: relative;
+	z-index: 2;
+}
+.eremenko {
+	text-align: right;
+}
+table {
+	margin-left: 300px;
+	
+	padding: 4px;
+	text-align: center;
+}
+table td {
+	padding: 3px 10px;
+}
+
+
+/*свойства для скрипта */
+.maps {
+	padding: 10px 140px;
+}
+
+
